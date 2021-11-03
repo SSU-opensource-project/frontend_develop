@@ -7,3 +7,12 @@ main .img_section .mainpageImg {
     margin-top: 40px;
     width: 300px;
 }
+
+main .search_section .search_box #upload_image {
+    width: 1000px;
+    height: 500px;
+    background-image: url('/img/imageUpload_box.png'); 
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    text-align: center;
+}
