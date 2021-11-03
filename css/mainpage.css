@@ -9,10 +9,29 @@ main .img_section .mainpageImg {
 }
 
 main .search_section .search_box #upload_image {
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 300px;
     background-image: url('/img/imageUpload_box.png'); 
     background-repeat: no-repeat;
-    margin-left: 200px;
     text-align: center;
+}
+
+main .search_section .gotoShowpage_area .gotoShowpage_img {
+    width: 300px;
+}
+
+main .search_section .gotoShowpage_area .search_btn {
+    width: 0px;
+    height: 0px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+main .search_section .gotoShowpage_area .search_btn_img {
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
