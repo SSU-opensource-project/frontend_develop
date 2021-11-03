@@ -1,7 +1,7 @@
 /* 공통 css */
 body {
     margin-top: 50px;
-    background-color: rgba(168, 198, 225, 0.15);
+    background-color: rgba(170,199,225,0.15);
     line-height: 2;
     font-size: 15px;
     color: #356093;
@@ -25,6 +25,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 99;
+    border-bottom: 2px solid #AAC7E1;
 }
   
 header > .inner {
@@ -47,9 +48,33 @@ header .logo .logoImg {
     height: 50px;
     margin-right: 5px;
 }
-  
-  
+
 header .submenu {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 230px;
+    margin: auto 0;
+}
+  
+header .submenu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4A90E2;
+}
+  
+header .submenu li a:hover {
+    font-weight: bolder;
+    color: #356093;
+}
+  
+header .submenu li + li {
+    margin-left: 37px;
+}
+  
+header .usermenu {
     display: flex;
     align-items: center;
     position: absolute;
@@ -59,18 +84,18 @@ header .submenu {
     margin: auto 0;
 }
   
-header .submenu li a {
+header .usermenu li a {
     text-decoration: none;
     font-weight: bold;
-    color: #369BED;
+    color: #4A90E2;
 }
   
-header .submenu li a:hover {
+header .usermenu li a:hover {
     font-weight: bolder;
-    color: #025497;
+    color: #356093;
 }
   
-header .submenu li + li {
+header .usermenu li + li {
     margin-left: 37px;
 }
   
