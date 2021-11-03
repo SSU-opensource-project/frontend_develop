@@ -1,0 +1,9 @@
+main {
+    text-align: center;
+}
+
+main .img_section .mainpageImg {
+    position: relative;
+    margin-top: 40px;
+    width: 300px;
+}
