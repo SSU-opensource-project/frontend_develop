@@ -24,6 +24,15 @@ body {
     font-size: 15px;
 }
 
+input:focus {
+    color: #4b82c5;
+    outline: none;
+}
+
+input::-webkit-input-placeholder { 
+    color: #4b82c5; 
+}
+
 .personal_info {
     width: 100%;
     margin: 0px auto;

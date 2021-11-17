@@ -39,6 +39,15 @@ h1 {
   font-weight: bold;
   font-size: 15px;
 }
+
+input:focus {
+  color: #4b82c5;
+  outline: none;
+}
+
+input::-webkit-input-placeholder { 
+  color: #4b82c5; 
+}
     
 .login_pw input {
   width: 470px;
@@ -89,6 +98,7 @@ h1 {
   position: absolute;
   top: 275px;
   left: 310px;
+  cursor: pointer;
 }
 
 .footerImg {
