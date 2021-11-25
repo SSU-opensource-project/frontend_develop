@@ -35,3 +35,32 @@ main .search_section .gotoShowpage_area .search_btn_img {
     border: none;
     outline: none;
 }
+
+.content_section {
+    margin: 100px 100px auto 100px;
+    text-align: center;
+}
+
+.content_section .profile_section {
+    float: left;
+}
+
+.profileImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.editBtn {
+    float: left;
+    border: none;
+    outline: none;
+    background: none;
+
+    margin-top: 280px;
+}
+
+.editInfo_btnImg {
+    width: 100px;
+}
+
