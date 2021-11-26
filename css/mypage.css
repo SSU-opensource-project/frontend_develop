@@ -46,10 +46,29 @@
     border-radius: 10px;
 }
 
-.exImg {
-    width: 150px;
-    margin-top: 50px;
-    margin-left: 5px;
+.history_section .search_box .exImg {
+    position: relative;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.history_section .search_box .deleteBtn {
+    position: absolute;
+    top: 122px;
+    left: 685px;
+    
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #4A90E2;
+
+    box-shadow: 0.5px 0.5px 0.5px #000;
+    border-radius: 50%;
+    border: none;
+    outline: none;
 }
 
 .footerImg {
