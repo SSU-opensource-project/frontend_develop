@@ -1,74 +1,57 @@
-main {
-    text-align: center;
-}
-
-main .img_section .mainpageImg {
-    position: relative;
-    margin-top: 40px;
-    width: 300px;
-}
-
-main .search_section .search_box #upload_image {
-    width: 800px;
-    height: 300px;
-    background-image: url('/img/imageUpload_box.png'); 
-    background-repeat: no-repeat;
-    text-align: center;
-}
-
-main .search_section .gotoShowpage_area .gotoShowpage_img {
-    width: 300px;
-}
-
-main .search_section .gotoShowpage_area .search_btn {
-    width: 0px;
-    height: 0px;
-    text-decoration: none;
-    border: none;
-    outline: none;
-}
-
-main .search_section .gotoShowpage_area .search_btn_img {
-    width: 120px;
-    height: 50px;
-    text-decoration: none;
-    border: none;
-    outline: none;
-}
-
 .content_section {
-    margin: 100px 100px auto 100px;
-    text-align: center;
-}
-
-.content_section .profile_section {
     float: left;
+    margin: 50px 100px auto 150px;
+    width: 20%;
 }
 
-.profileImg {
+/* .content_section .profile_section {
+    float: left;
+} */
+
+.content_section .profileImg {
     width: 250px;
     height: 250px;
     border-radius: 10px;
 }
 
-.editBtn {
-    float: left;
+.content_section .profile_info_section .editBtn {
     border: none;
     outline: none;
     background: none;
-
-    margin-top: 280px;
+    margin-left: 150px;
 }
 
-.editInfo_btnImg {
+.content_section .profile_info_section .editInfo_btnImg {
     width: 100px;
 }
 
-.search_box {
-    float: right;
+.content_section .profile_info_section {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.content_section .profile_info_section b{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.history_section .search_box {
+    margin-top: 55px;
+    width: 50%;
+    height: 400px;
+    float: left;
+    border: 2px solid #4A90E2;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .exImg {
     width: 150px;
+    margin-top: 50px;
+    margin-left: 5px;
 }
 
+.footerImg {
+    text-align: center;
+}
