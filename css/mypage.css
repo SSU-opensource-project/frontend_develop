@@ -64,3 +64,11 @@ main .search_section .gotoShowpage_area .search_btn_img {
     width: 100px;
 }
 
+.search_box {
+    float: right;
+}
+
+.exImg {
+    width: 150px;
+}
+
