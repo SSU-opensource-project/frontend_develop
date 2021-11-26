@@ -15,7 +15,7 @@
     <link rel="icon" href="img/reposeidon_logo.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"/>
     <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/mainpage.css" />
+    <link rel="stylesheet" href="./css/service_info.css" />
     <script defer src="./js/mainpage.js"></script>
 
     <title>이 옷 어디?</title>
@@ -45,28 +45,46 @@
             </header>
 
             <main>
-                <div class="tech_text">Deep Learning의 이미지 특징 검색을 바탕으로<br>
-                    패션 정보를 제공해주는 서비스</div>
-                <img 
-                    class="arrowImg"
-                    src="img/arrowImg.png"
-                    alt="arrowImg"
-                />
-                <div class="title_text">이 옷 어디?</div>
-                <div class="side_text">[이 옷 어디?]는 이러한 문제를 해결합니다.</div>
-                <img
-                    class="problemImg"
-                    src="img/serviceInfo_img.PNG"
-                    alt="problemImg"
-                />
-            </main>
+                <h1>Sign Up</h1>
+                <div class="signupBox">
+                <div class="signup">
+                    <div class="personal_info">
+                    <div class="name_info">
+                        <input type="name" name="" id="" placeholder="이름을 입력해주세요" />
+                    </div>
+                    <div class="gender_info">
+                        <input type="radio" name="gener" checked="checked" /> <span class="up">남자</span>
+                        <input type="radio" name="gener"/> <span class="up">여자</span>
+                    </div>
+                    </div>
+                    <div class="signup_email">
+                    <input type="email" name="" id="" placeholder="이메일 주소를 입력해주세요" />
+                    </div>
+                    <div class="signup_id">
+                    <input type="id" name="" id="" placeholder="ID를 입력해주세요" />
+                    </div>
+                    <div class="signup_pw">
+                    <input type="password" name="" id="" placeholder="비밀번호를 입력해주세요" />
+                    </div>
+                    <div class="pw_confirm">
+                    <input type="password" name="" id="" placeholder="비밀번호를 다시 한 번 입력해주세요" />
+                    </div>
+                    <div class="signupBtn">
+                    <input
+                        type="submit"
+                        value="회원가입"
+                        onClick="location.href='#'"
+                    />
+                    </div>
+                </div>
+                </div>
 
-            <footer>
-                <img
-                class="footerImg"
-                src="./img/footer_text.png"
-                alt="footerImage"
-                />
-            </footer>
+        <footer>
+          <img
+          class="footerImg"
+          src="./img/footer_text.png"
+          alt="footerImage"
+          />
+      </footer>
     </body>
 </html>
