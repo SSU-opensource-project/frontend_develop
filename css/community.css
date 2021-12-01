@@ -1,5 +1,5 @@
 .pageInfo {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -49,11 +49,17 @@ h1 {
 }
 
 h2 {
-    font-size:20px;
+    font-size: 18px;
 }
 
 p, h1, h2 {
     color:#4A90E2;
+}
+
+.postButton {
+    width: 150px;
+    display:flex;
+    flex-direction: row;
 }
 
 .title {
