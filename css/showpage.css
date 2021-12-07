@@ -1,6 +1,6 @@
-main {
+/* main {
     text-align: center;
-}
+} */
 
 .username_section {
     width: 30%;
@@ -14,7 +14,7 @@ main {
 
 .username_section .username {
     float: left;
-    width: 15%;
+    width: 20%;
     color: #356093;
     font-size: 20px;
 }
@@ -23,13 +23,15 @@ main {
     float: left;
     margin-left: 20px;
     margin-top: 5px;
-    width: 60%;
+    width: 55%;
     color: #000000;
     font-weight: 500;
 }
 
 .content_section {
-    text-align: center;
+    /* text-align: center; */
+    display:grid;
+    grid-template-rows: 300px 500px;
     width: 100%;
 }
 
@@ -40,19 +42,30 @@ main {
 } */
 
 .inputElement_section .inputImg {
-    /* width: 300px; */
-    float: left;
     width: 20%;
+    /* display:grid;
+    grid-template-rows: 300px 500px; */
+    /* flex-direction: row; */
+    /* float: left; */
     border: 2px solid #4A90E2;
     margin-top: 50px;
     margin-right: 70px;
+    margin-left: 70px;
     border-radius: 10px;
+}
+
+.outputElement_section {
+    display:grid;
+    flex-direction: row;
+    /* float: left; */
+    width: 50%;
+    margin-left: 40%;
+    margin-bottom: 90%;
 }
 
 .outputElement_section .outputElement_box {
     margin-top: 50px;
-    width: 40%;
-    float: left;
+
     border: 2px solid #4A90E2;
     background-color: #ffffff;
     border-radius: 10px;
