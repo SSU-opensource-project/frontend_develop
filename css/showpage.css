@@ -91,6 +91,8 @@
     height: 200px;
     margin: 10px 10px 5px 10px;
     object-fit: cover;
+    border: 2px solid #94c0f1;
+    border-radius: 3%;
 }
 
 .footerImg {
