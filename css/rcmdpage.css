@@ -62,4 +62,5 @@ p, h1, h2 {
     border-radius: 5px;
     vertical-align: top;
     object-fit: cover;
+    border: 2px solid #aeccee;
 }
